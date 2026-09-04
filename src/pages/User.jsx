@@ -59,8 +59,8 @@ const User = () => {
             console.log("error", error);
 
             if (error.response) {
-                if (error.response.status === 422 && error.response.data.error) {
-                    const rawErrors = error.response.data.error;
+                if (error.response.status === 422 && error.response.data.errors) {
+                    const rawErrors = error.response.data.errors;
                     const formatError = {}
 
                     Object.keys(rawErrors).forEach((key) => {
