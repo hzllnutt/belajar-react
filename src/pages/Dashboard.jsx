@@ -1,15 +1,16 @@
-import { Container, Button, Card } from "react-bootstrap";
+import { Container, Button, Card } from "react-bootstrap"
+import AppNavbar from "../components/AppNavbar"
 
 const Dashboard = () => {
-
     return (
-        <Container className="py-5">
-            <Card className="py-4">
+        <Container className="">
+            <AppNavbar />
+            <Card className="p-4 shadow-sm">
                 <h2>Welcome to Dashboard</h2>
-                <p className="text-muted">Login Successfully</p>
+                <p className="text-muted">Login successfully</p>
             </Card>
         </Container>
-    );
-};
+    )
+}
 
 export default Dashboard;

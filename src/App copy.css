@@ -1,10 +1,10 @@
 .container {
   max-width: 720px;
-  margin: 0 16px;
+  margin: 40px auto;
   padding: 0 16px;
 }
 
-header {
+header{
   text-align: center;
   margin-bottom: 25px;
 }
@@ -12,10 +12,8 @@ header {
 header h1 {
   font-size: 1.8rem;
   margin: 0 0 8px 0;
-  /* margin-bottom: 8px; */
-  color: #0f172a;
+  color: rgb(4, 0, 250);
 }
-
 .form-card {
   background-color: white;
   padding: 25px;
@@ -24,30 +22,28 @@ header h1 {
   border: 1px solid whitesmoke;
   margin-bottom: 32px;
 }
-
-.form-group {
+.form-group{
   display: flex;
   flex-direction: column;
   gap: 6;
   margin-bottom: 8px;
 }
-
-.form-group label {
+.form-group label{
   font-weight: bold;
   font-size: 1rem;
-  color: #475569;
+  color: rgb(3, 129, 129);
 }
 
-.form-group input {
+.form-group input{
   padding: 10px 12px;
-  border: 1px solid #475569;
+  border: 1px solid;
   border-radius: 8px;
   font-size: 0.9rem;
   outline: none;
   transition: border-color 0.2s;
 }
 
-.form-group input:focus {
+.form-group input:focus{
   border-color: #2563eb;
 }
 
@@ -55,6 +51,7 @@ header h1 {
   width: 100%;
   background-color: #2563eb;
   color: white;
+  padding: 12px;
   border: none;
   border-radius: 8px;
   font-size: 1rem;
@@ -64,9 +61,8 @@ header h1 {
 }
 
 .btn-submit:hover {
-  background-color: #1d4ed8;
+  background-color: #1d4e1d;
 }
-
 .student-list {
   font-size: 1.3rem;
   color: #334155;
